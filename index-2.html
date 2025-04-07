@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 18th, Sania!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #f7f0ff, #e0c6ff);
+      color: #4b006e;
+      text-align: center;
+      padding: 30px;
+      overflow-x: hidden;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .countdown {
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+    .message, .gift {
+      display: none;
+      max-width: 700px;
+      margin: 0 auto;
+      background-color: #ffffffee;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: left;
+      margin-top: 30px;
+    }
+    .footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #8a4ba3;
+    }
+
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Purple_heart_symbol.svg/2048px-Purple_heart_symbol.svg.png') no-repeat center center;
+      background-size: contain;
+      animation: float 6s ease-in infinite;
+      opacity: 0.6;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="passwordScreen" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:#f7f0ff;z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;">
+  <h2 style="color:#4b006e;">Enter Password to View the Site</h2>
+  <input id="passwordInput" type="password" placeholder="Password" style="padding:10px;border:1px solid #ccc;border-radius:8px;margin-top:10px;">
+  <button onclick="checkPassword()" style="margin-top:10px;padding:10px 20px;background:#a060c0;color:#fff;border:none;border-radius:8px;cursor:pointer;">Enter</button>
+  <p id="errorMsg" style="color:red;display:none;margin-top:10px;">Wrong password. Try again.</p>
+</div>
+
+<script>
+  function checkPassword() {
+    const pw = document.getElementById('passwordInput').value;
+    if (pw === 'Maryam2007') {
+      document.getElementById('passwordScreen').style.display = 'none';
+    } else {
+      document.getElementById('errorMsg').style.display = 'block';
+    }
+  }
+</script>
+
+  <audio autoplay loop>
+    <source src="birds_of_a_feather.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h1>Happy 18th Birthday, Sania!</h1>
+  <p class="countdown" id="countdown"></p>
+
+  <div class="message" id="message">
+    <h2>From Maryam:</h2>
+    <p>“I want you to stay <br>‘til I’m in the grave.”<br><br>
+    Every time I hear that line, I think of you. I think of the sweet girl who’s stayed by my side for as long as I can remember. Ten whole years. Since grade 2. And somehow, even through growing up, drifting apart for some time, moving, and all the messy cringey parts of life we stayed together. We’ve had that one fight, a bunch of misunderstandings, and so much distance. There were moments where things felt weird or confusing, but somehow we always found our way back to each other. That’s something I don’t take lightly because you’re the only person in my life I’ve ever had that kind of bond with and the only person who cared enough to have it with me.<br><br>
+    You’re my safe space. You always have been.<br><br>
+    When I was going through stuff in grade 11, you never judged me. You never made me feel broken or weak. You just stayed. That kind of loyalty? That kind of love? Wallahi it’s rare in a world full of fake friends. And I’ll never ever forget it. Even now with you so far away in Qatar, I still wait up till 2 a.m. just hoping for a message from you even if its a school night and you know me I love to sleep more than anything. And even if we don’t talk every day, or call every week, the connection between us never fades. It’s like our hearts are tied with something way stronger than distance. I think it’s our genuine love for each other. <br><br>
+    You’re still my first thought when something funny happens.<br>
+    You’re still the first person I wanna rant to when life is overwhelming or school is being annoying.<br>
+    You're still the first person I text if I see some fine guy or some discombobulated weirdo.<br>
+    You’re still my person.<br><br>
+    I see best friends together laughing, hugging, making memories, and all I can think is, That's me and Sania. That’s us. Even when we’re apart. You’re so beautiful, inside and out ( i wanna be inside u again baby ). Your heart, your loyalty, your softness reminds me of Jannah. Pure.<br><br>
+    You’re everything a best friend should be and more.  
+    You’ve taught me what real love is. Real friendship. It’s not about being perfect. It’s about choosing each other, even when it’s hard and no amount of distance can get in between that.  
+    So on your 18th birthday, I want you to know no matter where we are in the world, no matter how busy or distant life gets. I’ll always be right here. Cheering for you. Praying for you. Loving you forever and ever. I make dua every night that Allah (SWT) brings us back together in this dunya. That we get to grow old together, hand in hand, still laughing at retarded jokes and hugging like nothing ever changed.  I pray that you always feel seen, loved, and protected even if I’m not there to show you it. Sania you have such a beautiful soul and face wallahi if only you could see yourself through my eyes.  I pray Allah gives you the best of this life and the next.  That he grants you a fine nerdy protective obsessed husband who sees your worth, your beauty, your heart the same way I do and even more. I pray that we get to be sisters not just here, but forever in the akhira.<br><br>
+    I want you in every stage of my life.  
+    When I get into university, you’re the first one I’ll tell.  
+    When I’m stressed or lost, you’re the first one I’ll turn to for help.  
+    When life is good, you’re the one I want to celebrate with.  
+    Wherever you go, I’ll go. I don’t care if it’s an hour away or across the world. I’ll always find my way back to you.  Like I don’t know what I’d do without you and when days are bad I just wanna text you nobody else. It’s always been like that, your notification is the one I never ignore unless its TikTok then im sorry but everyone gets ignored because im too lazy so suck it. But anyways like I miss you so so so much and I know I can’t get you anything for your birthday trust me I’ve tried and I wish I could give you something because you deserve the world for everything you’ve done for me whether you’ve realized it or not. And if we ever somehow drift apart again I will run back to you no matter what and I know you’d do the same. My soul yearns for you day and night. I miss you a lot. And I’ll say it every single day so you know how much you mean to me. Happy Birthday Sania. You finally made it through being 17 now you just gotta wait for me.<br><br>
+    “I’ll love you ‘til the day that I die.”<br>
+    And after that, InshAllah, I’ll love you in Jannah too.<br><br>
+    Forever your best friend in this life and the hereafter,<br>
+    <strong>Maryam</strong>
+    </p>
+  </div>
+
+  <div class="gift" id="gift">
+    <h2>🎁 Your Surprise!</h2>
+    <p>This section is unlocked now because it's your birthday! But you'll have to imagine the gift because love is priceless 😌💜</p>
+  </div>
+
+  <div class="footer">Made with love by Maryam 💜</div>
+
+  <script>
+    
+    // Set birthday time in Qatar (GMT+3)
+    const qatarOffset = 3 * 60; // minutes offset from UTC
+    const birthdayUTC = Date.UTC(2025, 3, 8, 0, 0, 0); // April is month 3 (0-based index)
+    const birthday = birthdayUTC - (new Date().getTimezoneOffset() * 60000) + (qatarOffset * 60000);
+    
+    const countdownEl = document.getElementById('countdown');
+    const messageEl = document.getElementById('message');
+    const giftEl = document.getElementById('gift');
+
+    const interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = birthday - now;
+
+      if (distance > 0) {
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        countdownEl.innerHTML = `Countdown to your surprise: ${days}d ${hours}h ${minutes}m ${seconds}s`;
+      } else {
+        clearInterval(interval);
+        countdownEl.innerHTML = "🎉 It's your birthday, Sania! 🎉";
+        messageEl.style.display = 'block';
+        giftEl.style.display = 'block';
+      }
+    }, 1000);
+
+    // Create floating hearts
+    setInterval(() => {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = (5 + Math.random() * 5) + 's';
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 10000);
+    }, 300);
+  </script>
+</body>
+</html>
